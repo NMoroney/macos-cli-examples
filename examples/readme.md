@@ -8,7 +8,7 @@ The examples are mostly C++, with some Python.
 
 Generally use the simplest already installed tool (*vi, make, python3, pip3, git*).
 
-These examples are also being to test Gemini porting (generating Python and C++23 versions).
+These examples are also being to test Gemini porting (such as generating Python and C++23 versions).
 
 | Examples | | | | |
 | --- | --- | --- | --- | --- |
