@@ -21,3 +21,6 @@ I used the ```vi``` editor with [syntax highlighting on](https://apple.stackexch
 
 Easy peasy.
 
+---
+
+The basic example of Unicode substitutions was refined to become the [struse](https://github.com/NMoroney/struse) repo.
