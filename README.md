@@ -7,6 +7,8 @@ Then I used the terminal to build and test a series of familiar libraries and so
 
 This repository is a snap-shot (aka "**note-to-future-self**") on the specifics of these examples. Likewise this code might be helpful for others experimenting with these libraries and tools.
 
+These examples are also being to test Gemini porting (such as generating Python and C++23 versions).
+
 ---
 
 | Example | Description | Result |
