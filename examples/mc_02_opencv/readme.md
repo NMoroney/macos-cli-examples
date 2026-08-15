@@ -43,5 +43,9 @@ The normalized and inverted result is below :
 
 <img src="ocv_sunflower_distances.jpg" width=500px>
 
-Groovy.
+---
+
+The C++17, C++23 and Python versions are Gemini ports of the original C++ version.
+
+
 
