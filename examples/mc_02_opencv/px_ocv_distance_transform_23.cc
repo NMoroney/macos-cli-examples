@@ -1,3 +1,7 @@
+// © 2026 : github.com/NMoroney
+// MIT License 
+//
+
 #include <opencv2/opencv.hpp>
 #include <opencv2/imgproc.hpp>
 

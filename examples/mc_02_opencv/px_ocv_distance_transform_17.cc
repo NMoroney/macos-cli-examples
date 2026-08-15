@@ -1,3 +1,7 @@
+// © 2026 : github.com/NMoroney
+// MIT License 
+//
+
 #include <algorithm>
 #include <array>
 #include <cmath>

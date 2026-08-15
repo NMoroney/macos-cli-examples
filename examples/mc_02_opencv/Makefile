@@ -1,5 +1,7 @@
-# [2608] n8
+# © 2026 : github.com/NMoroney
+# MIT License 
 #
+
 
 py :
 	python3 px_ocv_distance_transform.py
