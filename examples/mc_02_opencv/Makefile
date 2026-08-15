@@ -1,25 +1,31 @@
-# © 2024 : github.com/NMoroney
-# MIT License 
+# [2608] n8
 #
 
-EXE=ocv_distance_transform
+py :
+	python3 px_ocv_distance_transform.py
 
-OCV=/usr/local/
 
-OCVINC=$(OCV)include/opencv4
+# SRC=px_ocv_distance_transform
+# SRC=px_ocv_distance_transform_17
+SRC=px_ocv_distance_transform_23
+
+EXE=distance_transform
+
+OCV=/opt/homebrew/
+
+OCVINC=$(OCV)include/opencv5
 OCVLIB=$(OCV)lib
 
 LCORE=-lopencv_core
 LCODEC=-lopencv_imgcodecs
 LPROC=-lopencv_imgproc
 
-OCVLIBS=-Wl,-rpath,$(OCVLIB) $(LCORE) $(LCODEC) $(LPROC)
+OCVLINK=-L$(OCVLIB) $(LCORE) $(LCODEC) $(LPROC)
 
-OPT=-std=c++17 -O3 -w
+# OPT=-std=c++17 -O3 -w
+OPT=-std=c++23 -O3 -w
 
 
-ocv :
-	g++ $(OPT) $(EXE).cc -I $(OCVINC) $(OCVLIBS) -o $(EXE)
+cc :
+	g++ $(OPT) $(SRC).cc -I $(OCVINC) $(OCVLINK) -o $(EXE)
 	./$(EXE)
-
-
