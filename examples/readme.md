@@ -8,6 +8,8 @@ The examples are mostly C++, with some Python.
 
 Generally use the simplest already installed tool (*vi, make, python3, pip3, git*).
 
+These examples are also being to test Gemini porting (generating Python and C++23 versions).
+
 | Examples | | | | |
 | --- | --- | --- | --- | --- |
 | <img src="mc_01_hello_world/2401-hello_world.png" width=151px><br>[mc_01_hello_world](mc_01_hello_world) | <img src="mc_02_opencv/ocv_sunflower_distances.jpg" width=151px><br>[mc_02_opencv](mc_02_opencv) | <img src="mc_03_eigen/eigen_rotate_2d-scatter_xy-cropped.png" width=151px><br>[mc_03_eigen](mc_03_eigen) | <img src="mc_04_libigl/libigl_blue_noise_sample_surface.jpg" width=151px><br>[mc_04_libigl](mc_04_libigl)  | <img src="mc_05_libsvm/libsvm_orange_classifier-scatter_xyz_rgb-cropped_02.jpg" width=151px><br>[mc_05_libsvm](mc_05_libsvm) |
