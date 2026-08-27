@@ -1,4 +1,4 @@
-## macOS : Command Line Examples 
+## macOS CLI Examples 
 
 These examples were completed in the numeric order used in the directory name.
 
