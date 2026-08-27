@@ -1,5 +1,5 @@
 
-# macOS : Command Line Examples
+# macOS CLI Examples
 
 I had to use [recovery mode](https://support.apple.com/en-us/HT204904) to install macOS on a 5 year old MacBook Air. This included an upgrade to Sonoma (14.2.1).
 
